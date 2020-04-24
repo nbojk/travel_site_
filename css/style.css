@@ -473,7 +473,6 @@ a:hover {
     height: 100%;
     background: #000;
     opacity: .0;
-    filter: alpha(opacity=0);
     z-index: 50;
     display: none;
     cursor: pointer;
@@ -491,24 +490,11 @@ a:hover {
     display: none;
 }
 
-.boxed-btn {
-    background: #1ec6b6;
-    display: inline-block;
-    padding: 14px 44px;
-    font-family: rubik,sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    border: 0;
-    border: 1px solid #1ec6b6;
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
-    cursor: pointer;
-}
+
 
 .close {
     color: #ff4a52;
-    font-size: 600;
+    font-weight: 600;
 }
 
 .close:hover {
